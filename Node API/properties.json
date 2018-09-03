@@ -1,0 +1,7 @@
+{
+    "database": {
+        "name": "camo",
+        "hostname": "localhost",
+        "port": 27017
+    }
+}

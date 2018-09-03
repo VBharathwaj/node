@@ -1,0 +1,2 @@
+https://medium.com/@bugwheels94/performance-difference-in-mongoose-vs-mongodb-60be831c69ad
+http://voidcanvas.com/mongoose-vs-mongodb-native/

@@ -1,0 +1,38 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "A complete node js API service boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "set DEBUG=app* & nodemon app.js",
+    "lint": "eslint app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bharathwaj Vasudevan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.4",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "/node_modules/**"
+    ],
+    "env": {
+      "PROCESS_ENV": "Developement",
+      "PORT": 8000
+    }
+  }
+}
