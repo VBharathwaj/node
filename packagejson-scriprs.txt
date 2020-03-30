@@ -1,0 +1,6 @@
+   "test:watch": "jest --watch",
+    "start": "node src/server.js",
+    "server": "nodemon server.js",
+    "test": "jest --forceExit --coverage --detectOpenHandles",
+    "sonar": "node sonar-project.js",
+    "commit": "npx git-cz"
